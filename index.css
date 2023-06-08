@@ -9,9 +9,11 @@ a{
     text-decoration: none;
     color: #fff;
 }
-/* ************ */
+/*****************************/
+/*******INDEX CSS BASLANGIC*******/
+/*****************************/
+
 /* ***HEADER BASLANGIC**** */
-/* ************** */
 .netflixHeader{
     background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) ,url(/img/arkaplan.jpg);
     background-position: center;
@@ -69,14 +71,10 @@ a{
 /* .headerContent-input button::after{
     content: url(img/angle-right.png);
 } */
-
-/* ************ */
 /* ***HEADER BITIS**** */
-/* ************** */
 
-/* ************ */
 /* ***SEC1 BASLANGIC**** */
-/* ************** */
+
 .sec1-item h1{
     font-size: 54px;
     font-weight: 700;
@@ -84,13 +82,11 @@ a{
 .sec1{
     border-bottom: 10px solid rgb(66, 64, 64);
 }
-/* ************ */
-/* ***SEC1 BITIS**** */
-/* ************** */
 
-/* ************ */
+/* ***SEC1 BITIS**** */
+
 /* ***ACCORDION BASLANGIC**** */
-/* ************** */
+
 .sec-accordion{
     border-bottom: 10px solid rgb(66, 64, 64);
 }
@@ -127,25 +123,65 @@ a{
 .accordion-body{
     border-top: 1px solid rgb(6, 6, 6);
 }
-/* ************ */
-/* ***ACCORDION BITIS**** */
-/* ************** */
 
-/* ************ */
+/* ***ACCORDION BITIS**** */
+
 /* ***FOOTER BASLANGIC**** */
-/* ************** */
+
 .list-item a{
     text-decoration: underline;
 }
 .list-item li{
     margin-bottom: .5rem;
 }
-/* ************ */
+
 /* ***FOOTER BITIS**** */
-/* ************** */
+
+/*****************************/
+/*******INDEX CSS BITIS*******/
+/*****************************/
+
+
+/*****************************/
+/*****HESAP CSS BASLANGIC*****/
+/*****************************/
+.navbar-collapse{
+    flex-grow: 0;
+}
+.netflixSign-item{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4.5rem;
+}
+.netflixSign-form{
+    background-color: #3c3d3e;
+}
+.netflixSign-form:focus{
+    background-color: #3c3d3e;
+}
+.netflixSign-form::placeholder{
+    color: #626365;
+}
+.form-check-input:checked{
+    background-color: #fff;
+    border: #fff;
+}
+.form-check-input:checked[type=checkbox]{
+    background-image: url(img/check.png);
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:576px){
+    /* header */
     .headerContent h1{
         font-size: 35px;
     }
@@ -165,11 +201,22 @@ a{
     .sec1-item h3{
         font-size: 20px;
     }
+    /* accordion */
     .accordion-button{
         font-size: 1.3rem;
     }
     .accordion-item{
         font-size: 1.1rem;
+    }
+    /*hesap css*/
+    .netflixSign-item{
+        padding: 1rem;
+    }
+    .text-end{
+        font-size: .9rem;
+    }
+    .form-check{
+        font-size: .9rem;
     }
 
 }
