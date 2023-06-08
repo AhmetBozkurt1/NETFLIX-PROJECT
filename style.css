@@ -3,6 +3,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    background-color: black;
 }
 a{
     text-decoration: none;
@@ -12,10 +13,10 @@ a{
 /* ***HEADER BASLANGIC**** */
 /* ************** */
 .netflixHeader{
-    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .4)) ,url(/img/arkaplan.jpg);
-    /* height: 100vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) ,url(/img/arkaplan.jpg);
     background-position: center;
     background-size: cover;
+    border-bottom: 10px solid rgb(66, 64, 64);
 }
 .nav-link{
     color: #fff;
@@ -42,11 +43,133 @@ a{
     height: 70vh;
 }
 .headerContent h1{
-    font-size: 49px;
+    font-size: 50px;
+}
+.headerContent p{
+    font-size: 20px;
 }
 .input-item:focus{
     box-shadow: none;
 }
-.headerContent-input button::after{
+.form-control{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #626365;
+    border-radius: rem;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 0 0 0 0px transparent , 0 0 0 2px #fff;
+    border: none;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+/* .headerContent-input button::after{
     content: url(img/angle-right.png);
+} */
+
+/* ************ */
+/* ***HEADER BITIS**** */
+/* ************** */
+
+/* ************ */
+/* ***SEC1 BASLANGIC**** */
+/* ************** */
+.sec1-item h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+.sec1{
+    border-bottom: 10px solid rgb(66, 64, 64);
+}
+/* ************ */
+/* ***SEC1 BITIS**** */
+/* ************** */
+
+/* ************ */
+/* ***ACCORDION BASLANGIC**** */
+/* ************** */
+.sec-accordion{
+    border-bottom: 10px solid rgb(66, 64, 64);
+}
+.accordion-item{
+    background-color: rgb(62, 60, 60);
+    color: #fff;
+    margin-bottom: .5rem;
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+.accordion-button{
+    background-color: rgb(62, 60, 60);
+    color: #fff;
+    font-size: 1.5rem;
+}
+.accordion-button:hover{
+    background-color: rgba(62, 60, 60, .7);
+}
+.accordion-button:focus{
+    border-color: rgb(62, 60, 60);
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: rgb(62, 60, 60);
+    box-shadow: none;
+}
+.accordion-button::after{
+    background-image: url(img/plus.png);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(img/eksi.png);
+}
+.accordion-body{
+    border-top: 1px solid rgb(6, 6, 6);
+}
+/* ************ */
+/* ***ACCORDION BITIS**** */
+/* ************** */
+
+/* ************ */
+/* ***FOOTER BASLANGIC**** */
+/* ************** */
+.list-item a{
+    text-decoration: underline;
+}
+.list-item li{
+    margin-bottom: .5rem;
+}
+/* ************ */
+/* ***FOOTER BITIS**** */
+/* ************** */
+
+
+@media (max-width:576px){
+    .headerContent h1{
+        font-size: 35px;
+    }
+    .headerContent h3{
+        font-size: 20px;
+    }
+    .headerContent p{
+        font-size: 18px;
+    }
+    /* section */
+    .sec1-item{
+        text-align: center;
+    }
+    .sec1-item h1{
+        font-size: 30px;
+    }
+    .sec1-item h3{
+        font-size: 20px;
+    }
+    .accordion-button{
+        font-size: 1.3rem;
+    }
+    .accordion-item{
+        font-size: 1.1rem;
+    }
+
 }
