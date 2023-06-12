@@ -9,6 +9,11 @@ a{
     text-decoration: none;
     color: #fff;
 }
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 /*****************************/
 /*******INDEX CSS BASLANGIC*******/
 /*****************************/
@@ -168,6 +173,60 @@ a{
 .form-check-input:checked[type=checkbox]{
     background-image: url(img/check.png);
     box-shadow: none;
+}
+/*****************************/
+/*****HESAP CSS BITIS*****/
+/*****************************/
+
+/*****************************/
+/*****PROFİL CSS BASLANGIC*****/
+/*****************************/
+.profileMain-parent{
+    height: 70vh;
+}
+.profile-image{
+    background-image: url(http://occ-0-2774-778.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229);
+    background-position: center;
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+.profile2-image{
+    background-image: url(http://occ-0-2774-778.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABfNXUMVXGhnCZwPI1SghnGpmUgqS_J-owMff-jig42xPF7vozQS1ge5xTgPTzH7ttfNYQXnsYs4vrMBaadh4E6RTJMVepojWqOXx.png?r=1d4);
+    background-position: center;
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+.profile3-image{
+    background-image: url(http://occ-0-2774-778.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABS2rKck_ASi-t2tktTEIAvWXiNn4MLGdfQkrCkro6hZh-GMhwLF054aqRpzaEfC1XZV6U4LMSMFf-CcBTz8OoHf_h0PB4plhKPcF.png?r=533);
+    background-position: center;
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+.profile4-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+.profile4-image i{
+    color: gray;
+    font-size: 5vw;
+    /* buraya vw yazarak icon için responsive görünüm kazandım sayfa küçüldükçe kendi de küçülüyor */
+}
+.profile ul{
+    display: flex;
+    justify-content: space-between;
+}
+.profile ul li{
+    text-align: center;
 }
 
 
