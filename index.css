@@ -148,7 +148,7 @@ ul{
 
 
 /*****************************/
-/*****HESAP CSS BASLANGIC*****/
+/*****LOGIN CSS BASLANGIC*****/
 /*****************************/
 .navbar-collapse{
     flex-grow: 0;
@@ -175,7 +175,7 @@ ul{
     box-shadow: none;
 }
 /*****************************/
-/*****HESAP CSS BITIS*****/
+/*****LOGIN CSS BITIS*****/
 /*****************************/
 
 /*****************************/
@@ -250,8 +250,35 @@ ul{
     border: 1px solid #fff;
     color: #fff;
 }
+/*****************************/
+/*****PROFİL CSS BITIS*****/
+/*****************************/
 
-
+/*****************************/
+/*****HESAP CSS BASLANGIC*****/
+/*****************************/
+.member-first{
+    border-bottom: 3px solid #626365;
+}
+.member-first-image{
+    background: url(https://assets.nflxext.com/ffe/siteui/account/svg/membersince.svg) no-repeat 0 0;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+}
+/* .member-second{
+    border-bottom: 3px solid #626365;
+} */
+.member-secondRight-first{
+    border-bottom: 2px solid #626365;
+}
+.member-second-button button{
+    width: 100%;
+    padding: .5rem 0;
+}
+.member-secondRight-list ul li a{
+    color: #626365;
+}
 
 
 
