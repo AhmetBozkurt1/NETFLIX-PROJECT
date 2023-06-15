@@ -266,9 +266,9 @@ ul{
     height: 26px;
     display: inline-block;
 }
-/* .member-second{
+.member-second{
     border-bottom: 3px solid #626365;
-} */
+}
 .member-secondRight-first{
     border-bottom: 2px solid #626365;
 }
@@ -276,8 +276,22 @@ ul{
     width: 100%;
     padding: .5rem 0;
 }
-.member-secondRight-list ul li a{
+.member-list li{
+    text-align: right;
+}
+.member-list li a{
     color: #626365;
+}
+.fa-cc-visa{
+    font-size: 40px;
+    color: #fff;
+}
+.member-secondRight-second{
+    border-bottom: 2px solid #626365;
+}
+.fa-high-definition{
+    font-size: 40px;
+    color: #fff;
 }
 
 
