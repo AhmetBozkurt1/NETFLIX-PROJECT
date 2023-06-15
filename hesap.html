@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
     <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -16,25 +17,25 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Anasayfa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Diziler</a>
+                <a class="nav-link" href="hesap.html">Hesap</a>
               </li>
               <li class="nav-item">
                 <a href="profil.html" class="nav-link ">Profiller</a>
               </li>
               <li class="nav-item">
-                <a href="login.html" class="nav-link ">Hesap</a>
+                <a href="login.html" class="nav-link ">Giriş Yap</a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-link ">Listem</a>
               </li>
             </ul>
-            <div class="dropdown ms-auto">
+            <div class="dropdown">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <img src="img/smile-profil.png" alt="">
                 </a>
@@ -46,6 +47,7 @@
               </div>
         </div>
     </nav>
+    
     <main class="member">
         <div class="container">
             <div class="row">
@@ -58,20 +60,20 @@
                 </div>
             </div>
             <div class="row member-second mt-4 justify-content-between">
-                <div class="col-3 member-secondLeft">
+                <div class="col-md-3 member-secondLeft">
                     <h4 class="text-secondary">ÜYELİK VE ÖDEMELER</h4>
                     <div class="member-second-button mt-3">
                         <button type="button" class="btn btn-secondary">Üyeliği İptal Et</button>
                     </div>
                 </div>
-                <div class="col-8 member-secondRight">
+                <div class="col-md-8 member-secondRight">
                     <div class="row member-secondRight-first justify-content-between">
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <p class="text-white">ahmet12345678@hotmail.com</p>
                             <p class="text-secondary">Parola:*******</p>
                             <p class="text-secondary">Telefon:0555555555</p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <ul class="member-list">
                                 <li>
                                     <a href="">E-postayı Değiştir</a>
@@ -89,14 +91,14 @@
                         </div>
                     </div>
                     <div class="row member-secondRight-second mt-4 justify-content-between">
-                        <div class="col-7">
+                        <div class="col-md-7">
                             <ul>
                                 <li class="d-inline-block"><i class="fa-brands fa-cc-visa"></i></li>
                                 <li class="d-inline-block text-secondary ms-1 fs-5">**** **** **** 0870</li>
                             </ul>
                             <h6 class="text-secondary mt-3">Sonraki faturalama tarihiniz: 17 Haziran 2023 Cumartesi.</h6>
                         </div>
-                        <div class="col-4 mb-4">
+                        <div class="col-md-4 mb-4">
                             <ul class="member-list">
                                 <li>
                                     <a href="">Ödeme Bilgilerini Yönet</a>
@@ -127,32 +129,160 @@
                     </div>
                 </div>
             </div>
-            <div class="row member-third">
-                <div class="col-3 member-thirdLeft">
+            <div class="row member-third justify-content-between mt-4">
+                <div class="col-md-3 member-thirdLeft">
                     <h4 class="text-secondary">PLAN AYRINTILARI</h4>
                 </div>
-                <div class="col-8 member-thirdRight">
-                    <div class="row member-thirdRight-first">
-                        <div class="col-4">
+                <div class="col-md-8 member-thirdRight">
+                    <div class="row member-thirdRight-first justify-content-between mb-3">
+                        <div class="col-md-4">
                             <ul>
-                                <li class="text-secondary fs-5">Temel</li>
-                                <li>
-                                  <i class="fa-light fa-high-definition"></i>
+                                <li class="text-secondary fs-6 d-inline-block">Temel</li>
+                                <li class="d-inline-block">
+                                    <i class="bi bi-badge-hd align-middle"></i>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-4">
-                            <ul>
-                                <li></li>
-                                <li></li>
+                        <div class="col-md-4">
+                            <ul class="member-list">
+                                <li>
+                                    <a href="">Planı Değiştir</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div class="row member-fourth justify-content-between mt-4">
+                <div class="col-md-3 member-fourthLeft">
+                    <h4 class="text-secondary">PROFİL VE EBEVEYN KONTROLLERİ</h4>
+                </div>
+                <div class="col-md-8 member-fourthRight">
+                    <div class="row member-fourthRight-first justify-content-between">
+                        <div class="col-6 mb-3">
+                            <ul class="d-flex column-gap-4">
+                                <li class="member-fourthProfile"></li>
+                                <li class="align-self-center">
+                                    <ul>
+                                        <li class="text-white">Ahmet</li>
+                                        <li class="text-secondary">Tüm Yetişkinlik Düzeyleri</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 text-end">
+                            <span>
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row member-fourthRight-first justify-content-between mt-4">
+                        <div class="col-6 mb-3">
+                            <ul class="d-flex column-gap-4">
+                                <li class="member-fourthProfile"></li>
+                                <li class="align-self-center">
+                                    <ul>
+                                        <li class="text-white">Ahmet</li>
+                                        <li class="text-secondary">Tüm Yetişkinlik Düzeyleri</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 text-end">
+                            <span>
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between mt-4">
+                        <div class="col-6 mb-3">
+                            <ul class="d-flex column-gap-4">
+                                <li class="member-fourthProfile"></li>
+                                <li class="align-self-center">
+                                    <ul>
+                                        <li class="text-white">Ahmet</li>
+                                        <li class="text-secondary">Tüm Yetişkinlik Düzeyleri</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 text-end">
+                            <span>
+                                <i class="bi bi-chevron-down"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
+    <footer class="mt-5 mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="text-white">Sorularınız mı var? 
+                <a class="text-decoration-underline" href="">0850-390-7444</a> 
+                numaralı telefonu arayın</h5>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-6 col-lg-3">
+              <ul class="list-item list-unstyled">
+                <li><a href="#">SSS</a></li>
+                <li><a href="#">Medya Merkezi</a></li>
+                <li><a href="#">Hediye Kartı Kullan</a></li>
+                <li><a href="#">Gizlilik</a></li>
+                <li><a href="#">Bize Ulaşın</a></li>
+                <li><a href="#">Sadece Netflix'te</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+              <ul class="list-item list-unstyled">
+                <li><a href="#">Yardım Merkezi</a></li>
+                <li><a href="#">Yatırımcı İlişkileri</a></li>
+                <li><a href="#">İzleme Yolları</a></li>
+                <li><a href="#">Çerez Tercihleri</a></li>
+                <li><a href="#">Hız Testi</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+              <ul class="list-item list-unstyled">
+                <li><a href="#">Hesap</a></li>
+                <li><a href="#">İş İmkanları</a></li>
+                <li><a href="#">Kullanım Koşulları</a></li>
+                <li><a href="#">Kurumsal Bilgiler</a></li>
+                <li><a href="#">Yasal Hükümler</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+              <ul class="list-item list-unstyled">
+                <li><a href="#">Medya Merkezi</a></li>
+                <li><a href="#">Yatırımcı İlişkileri</a></li>
+                <li><a href="#">Gizlilik</a></li>
+                <li><a href="#">Hediye Kartı Kullan</a></li>
+                <li><a href="#">Bize Ulaşın</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-lg-3">
+              <div class="dropdown rounded me-3 mt-4 mb-3">
+                <button class="btn btn-dark dropdown-toggle p-2 px-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TÜRKÇE
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">TÜRKÇE</a></li>
+                  <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                </ul>
+              </div>
+              <span class="footerText-end text-white">Netflix Türkiye</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
 
 
 

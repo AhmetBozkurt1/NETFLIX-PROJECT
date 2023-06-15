@@ -289,11 +289,33 @@ ul{
 .member-secondRight-second{
     border-bottom: 2px solid #626365;
 }
-.fa-high-definition{
-    font-size: 40px;
+.member-third{
+    border-bottom: 3px solid #626365;
+}
+.bi-badge-hd{
+    font-size: 28px;
     color: #fff;
 }
-
+.member-fourth{
+    border-bottom: 3px solid #626365;
+}
+.member-fourthProfile{
+    background-image: url("http://occ-0-2774-778.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 5vw;
+    height: 5vw;
+    min-width: 64px;
+    min-height: 64px;
+}
+.member-fourthRight-first{
+    border-bottom: 2px solid #626365;
+}
+.bi-chevron-down{
+    font-size: 30px;
+    color: #fff;
+}
 
 
 
