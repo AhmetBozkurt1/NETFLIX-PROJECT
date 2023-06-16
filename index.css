@@ -336,15 +336,31 @@ ul{
     font-size: 30px;
     color: #fff;
 }
+/*****************************/
+/*****HESAP CSS BITIS*****/
+/*****************************/
 
-
-
-
-
-
-
-
-
+/*****************************/
+/*****FİLMLER CSS BASLANGIC*****/
+/*****************************/
+.movie{
+    background-color: rgb(66, 64, 64);
+    padding: 3rem 0;
+}
+.movie-img{
+    overflow: hidden;
+}
+.movie-img img{
+    max-width: 100%;
+    transition: all .3s linear;
+}
+.movie-img:hover img{
+    filter: grayscale(1);
+    transform: scale(1.2);
+}
+/*****************************/
+/*****FİLMLER CSS BITIS*****/
+/*****************************/
 
 @media (max-width:576px){
     /* header */
