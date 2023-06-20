@@ -20,7 +20,7 @@ ul{
 
 /* ***HEADER BASLANGIC**** */
 .netflixHeader{
-    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) ,url(/img/arkaplan.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .7) , rgba(0, 0, 0, .8)) ,url(img/arkaplan.jpg);
     background-position: center;
     background-size: cover;
     border-bottom: 10px solid rgb(66, 64, 64);
